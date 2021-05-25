@@ -3,9 +3,9 @@ server:
 
 spring:
    datasource:
-     username: root
-     password: 123456
-     url: jdbc:mysql://localhost:3306/tm?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+     username: train
+     password: Gm123qwe
+     url: jdbc:mysql://121.43.118.86:3306/train?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
      driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
   mapper-locations: mapper/*Mapper.xml
